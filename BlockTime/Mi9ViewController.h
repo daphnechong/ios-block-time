@@ -10,4 +10,9 @@
 
 @interface Mi9ViewController : UIViewController
 
+@property (nonatomic) IBOutlet UITextField *textField;
+@property (nonatomic) IBOutlet UILabel *label;
+@property (nonatomic) UIButton *encryptButton;
+
+- (IBAction)encryptText:(id)sender;
 @end
